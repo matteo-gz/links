@@ -22,9 +22,6 @@ jobs:
 
       - name: Build Site
         run: |
-#          pwd
-#          ls
-#          cp -R exampleSite/* .
           hugo --baseURL https://matteo-gz.github.io/links/
           
       - name: Deploy Pages
