@@ -25,7 +25,7 @@ jobs:
           pwd
           ls
           cp -R exampleSite/* .
-          hugo --themesDir ../ --baseURL https://matteo-gz.github.io/links
+          hugo --baseURL https://matteo-gz.github.io/links
           
       - name: Deploy Pages
         uses: peaceiris/actions-gh-pages@v3	  # 一个自动发布 github pages 的 action
