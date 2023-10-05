@@ -37,7 +37,9 @@ body,html{font-size:14px;}
 .navbar-collapse ul li.menu-item-has-children:after{content:'\e612';}
 
 /*搜索部分背景样式*/
-.header-big.css-color{background-size:unset;background-position:unset;animation:unset;}
+.header-big.css-color{background-size:unset;
+    /*background-position:unset;*/
+    animation:unset;}
 
 /*搜索热词样式调整*/
 .search-hot-text{
@@ -101,9 +103,9 @@ footer.main-footer .footer-text a:hover {
 
 /*网格背景*/
 .io-grey-mode .page-container .grid-bg {
-    background-image: linear-gradient(rgba(50, 0, 0, 0.05) 1px, transparent 0), linear-gradient(90deg, rgba(50, 0, 0, 0.05) 1px, transparent 0); 
-    background-size: 15px 15px;
-    background-color: #d8d8d8;
+    /*background-image: linear-gradient(rgba(50, 0, 0, 0.05) 1px, transparent 0), linear-gradient(90deg, rgba(50, 0, 0, 0.05) 1px, transparent 0); */
+    /*background-size: 15px 15px;*/
+    background-color: #f9f9f9;
 }
 
 
