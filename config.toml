@@ -33,16 +33,13 @@ themesDir =  "../"
     key = "" #085791e805a24491b43b06cf58ab31e7
 
 [params.images]
-    favicon           = "assets/images/favicon.png"
-#    searchImageL      = "assets/images/th.jpg"		# 搜索部分浅色背景图
-#    searchImageL      = "//cn.bing.com/th?id=OHR.AssiniboineProvincialPark_EN-CA8602465476_1920x1080.jpg"		# 搜索部分浅色背景图
-#    searchImageD      = "//cn.bing.com/th?id=OHR.AssiniboineProvincialPark_EN-CA8602465476_1920x1080.jpg"		# 搜索部分深色背景图
+    favicon           = "assets/images/android-chrome-512x512.png"
     searchImageL      = "assets/images/th.jpg"		# 搜索部分浅色背景图
     searchImageD      = "assets/images/th.jpg"		# 搜索部分深色背景图
-    logoExpandLight   = "assets/images/bt8-expand-light.png"
-    logoExpandDark    = "assets/images/bt8-expand-dark.png"
-    logoCollapseLight = "assets/images/bt.png"
-    logoCollapseDark  = "assets/images/bt.png"
+    logoExpandLight   = "assets/images/Logo_Matteo-100-360x135px.png"
+    logoExpandDark    = "assets/images/Logo_Matteo-100-360x135px.png"
+    logoCollapseLight = "assets/images/Logo_M-100-80x135px.png"
+    logoCollapseDark  = "assets/images/Logo_M-100-80x135px.png"
 
 [markup.goldmark.renderer]
     unsafe = true

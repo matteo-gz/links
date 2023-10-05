@@ -1,6 +1,7 @@
 ---
 
 - taxonomy: 模型
+  icon: far fa-star
   links:
     - title: CivitAI
       logo: civitai.png
