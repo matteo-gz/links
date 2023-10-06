@@ -34,18 +34,17 @@
           url: https://novelai.net/
           description: AI创作故事
     - term: chatGPT
-      icon: fa-solid fa-image
       links:
         - title: Poe
           logo: poe.ico
           url: https://poe.com/
           description: 聚合AI聊天
         - title: ChatGPT
-          logo:
+          logo: openai.ico
           url: https://chat.openai.com/
           description: OpenAI旗下产品
         - title: Claude
-          logo:
+          logo: claude.ico
           url: https://claude.ai/
           description: Anthropic旗下产品
         - title: Bard
@@ -53,6 +52,146 @@
           url: https://bard.google.com/
           description: Google旗下产品
         - title: Slack
-          logo:
+          logo: slack.ico
           url: https://slack.com/
           description: 团队协作网站,可嵌入 Claude
+    - term: 编程
+      links:
+        - title: "huggingface"
+          logo: "huggingface.ico"
+          url: https://huggingface.co/
+          description:
+        - title: "colab"
+          logo:
+          url: https://colab.research.google.com/
+          description: 浏览器中编写和执行Python
+    - term: 教程
+      links:
+        - title: OCDevel
+          logo:
+          url: https://ocdevel.com/mlg
+          description: 机器学习教程播客
+        - title: "Courses - DeepLearning.AI"
+          logo:
+          url: https://www.deeplearning.ai/courses/
+          description: 吴恩达平台
+        - title: "fast.ai"
+          logo:
+          url: https://www.fast.ai/
+          description: 偏向编程人员教程
+
+    - term: 具体教程
+      links:
+        - title: Deep Learning Specialization
+          logo:
+          url: https://www.coursera.org/specializations/deep-learning
+          description: Coursera平台 Andrew Ng 深度学习系列
+        - title: "CS229: Machine Learning"
+          logo:
+          url: https://cs229.stanford.edu/
+          description: Stanford CS229 机器学习课程
+        - title: "Practical Data Ethics"
+          logo:
+          url: https://ethics.fast.ai/videos/?lesson=1
+          description: fast.ai
+        - title: "Practical Deep Learning"
+          logo:
+          url: https://course.fast.ai/
+          description: fast.ai
+        - title: "Hugging Face NLP Course"
+          logo: "huggingface.ico"
+          url: https://huggingface.co/learn/nlp-course/zh-CN/chapter0/1?fw=pt
+          description: huggingface
+    - term: 博主
+      links:
+        - title: "bytebytego"
+          logo: "bytebytego.png"
+          url: https://blog.bytebytego.com
+          description:
+        - title: "paperswithcode"
+          logo: "paperswithcode.ico"
+          url: https://paperswithcode.com/
+          description:
+
+    - term: 博文
+      links:
+        - title: Spark-MLlib学习日记
+          logo:
+          url: https://voidchen10.github.io/categories/Spark-MLlib%E5%AD%A6%E4%B9%A0%E6%97%A5%E8%AE%B0/
+          description: voidchen10
+        - title: 机器学习前提
+          logo:
+          url: https://www.sharpsightlabs.com/blog/machine-learning-prerequisite-isnt-math/
+          description: sharpsightlabs
+        - title: Transformer模型介绍
+          logo: "nvidia.ico"
+          url: https://blogs.nvidia.com/blog/2022/03/25/what-is-a-transformer-model/
+          description: nvidia
+        - title: How Transformers Work
+          logo:
+          url: https://towardsdatascience.com/transformers-141e32e69591
+          description: towardsdatascience
+        - title: 关于LoRA介绍
+          logo: "huggingface.ico"
+          url: https://huggingface.co/blog/lora
+          description: huggingface
+        - title: 图解Stable Diffusion
+          logo:
+          url: https://jalammar.github.io/illustrated-stable-diffusion/
+          description:
+        - title: 介绍GNN
+          logo:
+          url: https://distill.pub/2021/gnn-intro/
+          description: 介绍Graph Neural Networks
+        - title: 图像分类任务排名
+          logo: paperswithcode.ico
+          url: https://paperswithcode.com/sota/image-classification-on-imagenet
+          description: paperswithcode
+        - title: ChatGPT工作原理
+          logo: "bytebytego.png"
+          url: https://blog.bytebytego.com/p/ep-44-how-does-chatgpt-work?utm_source=%2Fsearch%2Fchatgpt&utm_medium=reader2
+          description: bytebytego
+        - title: brain maps
+          logo:
+          url: https://www.thehighestofthemountains.org/brainmaps.php
+          description:
+    - term: 他人笔记
+      links:
+        - title: csdn机器学习笔记
+          logo: csdn.ico
+          url: https://blog.csdn.net/m0_37867091/category_9817315.html
+          description: 机器学习
+        - title: 语雀机器学习笔记
+          logo: yuque.png
+          url: https://www.yuque.com/river_chen/we8uxh/wrbzgy
+          description: 机器学习
+        - title: heywhale机器学习笔记
+          logo:
+          url: https://www.heywhale.com/mw/project/5e0f01282823a10036b280a7
+          description: 机器学习
+        - title: hktxt 统计学习方法算法实现
+          logo: github.ico
+          url: https://github.com/hktxt/Learn-Statistical-Learning-Method
+          description:
+        - title: SmirkCao 统计学习方法笔记
+          logo: github.ico
+          url: https://github.com/SmirkCao/Lihang
+          description:
+    - term: paper
+      links:
+        - title: HyperNetworks
+          logo: "arxiv-logo-one-color-white.svg"
+          url: https://arxiv.org/abs/1609.09106
+          description:
+        - title: "Understanding Diffusion Models: A Unified Perspective"
+          logo: "arxiv-logo-one-color-white.svg"
+          url: https://arxiv.org/abs/2208.11970
+          description: "Understanding Diffusion Models: A Unified Perspective"
+        - title: "Deep learning"
+          logo:
+          url: https://www.cs.toronto.edu/~hinton/absps/NatureDeepReview.pdf
+          description:
+        - title: "Attention Is All You Need"
+          logo: "arxiv-logo-one-color-white.svg"
+          url: https://arxiv.org/abs/1706.03762
+          description:
