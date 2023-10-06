@@ -1,9 +1,58 @@
 ---
 
-- taxonomy: 模型
+- taxonomy: 人工智能
   icon: far fa-star
-  links:
-    - title: CivitAI
-      logo: civitai.png
-      url: https://civitai.com/
-      description: 模型分享
+  list:
+    - term: 视觉
+      links:
+        - title: CivitAI
+          logo: civitai.png
+          url: https://civitai.com/
+          description: stable diffusion模型分享
+        - title: AIBooru
+          logo: danbooru-logo-128x128-5dfe4b292bd64a786b41.png
+          url: https://aibooru.online/
+          description: "分享用户AI生成图像 NFSW !!"
+        - title: Lexica
+          logo: lexica.ico
+          url: https://lexica.art/
+          description: 文生图产品
+        - title: MidJourney
+          logo: midjourney.ico
+          url: https://www.midjourney.com/home/
+          description: 文生图产品
+        - title: Danbooru 标签超市
+          logo:
+          url: https://tags.novelai.dev/
+          description:
+        - title: prompt教程
+          logo:
+          url: https://prompthero.com/stable-diffusion-prompt-guide
+          description: THE Ultimate Prompting GUIDE
+        - title: NovelAI
+          logo:
+          url: https://novelai.net/
+          description: AI创作故事
+    - term: chatGPT
+      icon: fa-solid fa-image
+      links:
+        - title: Poe
+          logo: poe.ico
+          url: https://poe.com/
+          description: 聚合AI聊天
+        - title: ChatGPT
+          logo:
+          url: https://chat.openai.com/
+          description: OpenAI旗下产品
+        - title: Claude
+          logo:
+          url: https://claude.ai/
+          description: Anthropic旗下产品
+        - title: Bard
+          logo:
+          url: https://bard.google.com/
+          description: Google旗下产品
+        - title: Slack
+          logo:
+          url: https://slack.com/
+          description: 团队协作网站,可嵌入 Claude
