@@ -1,7 +1,54 @@
 ---
-
+- taxonomy: 收藏
+  icon: fa fa-star
+  links:
+    - title: alternative to
+      logo: alternativeto.ico
+      url: https://alternativeto.net/
+      description: 软件另一种选择
+    - title: File Listing
+      logo: filelisting.ico
+      url: https://filelisting.com/
+      description: 文件列表查找在网上
+    - title: similar web
+      logo: similarweb.ico
+      url: https://www.similarweb.com/zh/
+      description: 相似网站
+    - title: Qwant
+      logo: qwant.ico
+      url: https://www.qwant.com/
+      description: 欧洲搜索引擎
+    - title: yandex
+      logo: 64f5920e670ad193dcca0ed33500c7c4.png
+      url: https://yandex.com/
+      description: 俄罗斯搜索引擎
+    - title: 快捷指令
+      logo: rcuts.ico
+      url: https://www.rcuts.com/
+      description: 苹果IOS快捷大全
+    - title: xda forums
+      logo: xdaforums.ico
+      url: https://xdaforums.com/
+      description: 手机ROM下载
+- taxonomy: 文娱
+  icon: fa fa-music
+  list:
+    - term: 娱乐
+      links:
+        - title: Google艺术与文化
+          logo: gac-icon-200x200-v1.png
+          url: https://artsandculture.google.com/?hl=zh
+          description: 线上博物馆
+        - title: 9gag
+          logo: 9gag.ico
+          url: https://9gag.com/
+          description: 梗图
+        - title: sound cloud
+          logo: soundcloud.ico
+          url: https://soundcloud.com/
+          description: 音乐
 - taxonomy: 人工智能
-  icon: far fa-star
+  icon: fa fa-robot
   list:
     - term: 视觉
       links:
@@ -30,7 +77,7 @@
           url: https://prompthero.com/stable-diffusion-prompt-guide
           description: THE Ultimate Prompting GUIDE
         - title: NovelAI
-          logo:
+          logo: novelai-round.png
           url: https://novelai.net/
           description: AI创作故事
     - term: chatGPT
@@ -48,7 +95,7 @@
           url: https://claude.ai/
           description: Anthropic旗下产品
         - title: Bard
-          logo:
+          logo: "favicon_v1_150160cddff7f294ce30.svg"
           url: https://bard.google.com/
           description: Google旗下产品
         - title: Slack
@@ -60,9 +107,9 @@
         - title: "huggingface"
           logo: "huggingface.ico"
           url: https://huggingface.co/
-          description:
+          description: 大模型下载
         - title: "colab"
-          logo:
+          logo: colab.ico
           url: https://colab.research.google.com/
           description: 浏览器中编写和执行Python
     - term: 教程
@@ -71,7 +118,7 @@
           logo:
           url: https://ocdevel.com/mlg
           description: 机器学习教程播客
-        - title: "Courses - DeepLearning.AI"
+        - title: "DeepLearning AI"
           logo:
           url: https://www.deeplearning.ai/courses/
           description: 吴恩达平台
@@ -82,10 +129,10 @@
 
     - term: 具体教程
       links:
-        - title: Deep Learning Specialization
+        - title: Andrew Ng 深度学习系列
           logo:
           url: https://www.coursera.org/specializations/deep-learning
-          description: Coursera平台 Andrew Ng 深度学习系列
+          description: Coursera平台
         - title: "CS229: Machine Learning"
           logo:
           url: https://cs229.stanford.edu/
@@ -107,11 +154,11 @@
         - title: "bytebytego"
           logo: "bytebytego.png"
           url: https://blog.bytebytego.com
-          description:
+          description: 用简单的术语解释复杂的系统
         - title: "paperswithcode"
           logo: "paperswithcode.ico"
           url: https://paperswithcode.com/
-          description:
+          description: 机器学习论文 代码 数据集 方法和评估表分享
 
     - term: 博文
       links:
@@ -154,29 +201,29 @@
         - title: brain maps
           logo:
           url: https://www.thehighestofthemountains.org/brainmaps.php
-          description:
+          description: 大脑组成
     - term: 他人笔记
       links:
         - title: csdn机器学习笔记
           logo: csdn.ico
           url: https://blog.csdn.net/m0_37867091/category_9817315.html
-          description: 机器学习
+          description: Fun'机器学习
         - title: 语雀机器学习笔记
           logo: yuque.png
           url: https://www.yuque.com/river_chen/we8uxh/wrbzgy
-          description: 机器学习
+          description: River 机器学习
         - title: heywhale机器学习笔记
           logo:
           url: https://www.heywhale.com/mw/project/5e0f01282823a10036b280a7
-          description: 机器学习
+          description: heywhale 机器学习
         - title: hktxt 统计学习方法算法实现
           logo: github.ico
           url: https://github.com/hktxt/Learn-Statistical-Learning-Method
-          description:
+          description: hktxt
         - title: SmirkCao 统计学习方法笔记
           logo: github.ico
           url: https://github.com/SmirkCao/Lihang
-          description:
+          description: SmirkCao
     - term: paper
       links:
         - title: HyperNetworks
@@ -194,4 +241,223 @@
         - title: "Attention Is All You Need"
           logo: "arxiv-logo-one-color-white.svg"
           url: https://arxiv.org/abs/1706.03762
+          description:
+- taxonomy: 编程
+  icon: fa fa-terminal
+  list:
+    - term: 工具
+      links:
+        - title: process on
+          logo: processon.ico
+          url: https://www.processon.com/
+          description: 画图
+        - title: excalidraw
+          logo:
+          url: https://excalidraw.com/
+          description: 画图
+        - title: 看云
+          logo:
+          url: https://www.kancloud.cn/
+          description: 笔记
+        - title: 简书
+          logo:
+          url: https://www.jianshu.com/
+          description: 笔记
+        - title: 有道云
+          logo:
+          url: https://note.youdao.com/
+          description: 笔记
+        - title: neat-reader
+          logo:
+          url: https://www.neat-reader.cn/
+          description: 阅读器软件
+        - title: 论文工具
+          logo: semanticscholar.ico
+          url: https://www.semanticscholar.org/
+          description: semanticscholar
+        - title: 论文关联
+          logo: connectedpapers.ico
+          url: https://www.connectedpapers.com/
+          description: connectedpapers
+        - title: 图标
+          logo:
+          url: https://fontawesome.com/search
+          description: fontawesome
+        - title: 图片压缩
+          logo:
+          url: https://www.iloveimg.com/zh-cn/compress-image
+          description:
+    - term: 线上转换
+      links:
+        - title: json to proto
+          logo:
+          url: https://json-to-proto.github.io/
+          description: 转换
+        - title: json to String
+          logo:
+          url: https://jsontostring.com/
+          description: Convert JSON to String Online
+        - title: 编译器在线
+          logo:
+          url: https://godbolt.org/
+          description:
+        - title: JavaScript key code
+          logo:
+          url: https://www.toptal.com/developers/keycode
+          description:
+        - title: gitignore
+          logo:
+          url: https://www.toptal.com/developers/gitignore
+          description:
+        - title: regex 101
+          logo:
+          url: https://regex101.com/
+          description: 正则
+        - title: 正则
+          logo:
+          url: http://www.jsons.cn/reg/
+          description: jsons.cn
+        - title: unminify for JavaScript
+          logo:
+          url: https://unminify.com/
+          description:
+        - title: explain shell
+          logo:
+          url: https://explainshell.com/
+          description:
+        - title: image base64
+          logo:
+          url: https://www.base64-image.de/
+          description: CONVERT YOUR IMAGES TO BASE64
+        - title: 最新的浏览器支持查询
+          logo:
+          url: https://caniuse.com/
+          description:
+        - title: cors检测
+          logo:
+          url: https://httptoolkit.com/will-it-cors/
+          description:
+        - title: 在线工具
+          logo:
+          url: https://tool.lu/
+          description:
+        - title: ok tools
+          logo:
+          url: https://oktools.net/
+          description:
+        - title: 菜鸟工具
+          logo:
+          url: https://c.runoob.com/
+          description:
+        - title: tool oschina
+          logo:
+          url: https://tool.oschina.net/
+          description:
+        - title: 转换工具
+          logo:
+          url: https://www.convertsimple.com/
+          description:
+        - title: go tool
+          logo:
+          url: http://www.gotool.top/
+          description:
+    - term: 服务器
+      links:
+        - title: vultr
+          logo:
+          url: https://www.vultr.com/
+          description:
+        - title: aliyun
+          logo:
+          url: https://www.aliyun.com/
+          description: 阿里云
+        - title: tencent
+          logo:
+          url: https://cloud.tencent.com/
+          description: 腾讯云
+        - title: hostyun
+          logo:
+          url: https://hostyun.com/
+          description:
+    - term: bbs
+      links:
+        - title: learnku
+          logo:
+          url: https://learnku.com/
+          description:
+        - title: segmentfault
+          logo:
+          url: https://segmentfault.com/
+          description:
+        - title: 博客园
+          logo:
+          url: https://www.cnblogs.com/
+          description:
+        - title: stackoverflow
+          logo:
+          url: https://stackoverflow.com
+          description:
+    - term: 思路
+      links:
+        - title: 算法可视化
+          logo:
+          url: https://algorithm-visualizer.org/
+          description:
+        - title: Golang leetcode
+          logo:
+          url: https://books.halfrost.com/leetcode/
+          description: 算法大全 by halfrost
+        - title: leetcode 刷题思路
+          logo:
+          url: https://labuladong.github.io/algo/
+          description: labuladong
+    - term: 编程文档
+      links:
+        - title: Kubernetes
+          logo:
+          url: https://k8s.easydoc.net/docs/dRiQjyTY/28366845/6GiNOzyZ/9EX8Cp45
+          description:
+        - title: Docker
+          logo:
+          url: https://yeasy.gitbook.io/docker_practice/introduction/what
+          description:
+        - title: etcd
+          logo:
+          url: https://csunny.gitbook.io/etcd/
+          description:
+        - title: prometheus
+          logo:
+          url: https://yunlzheng.gitbook.io/prometheus-book/
+          description: yunlzheng
+        - title: prometheus
+          logo:
+          url: https://songjiayang.gitbooks.io/prometheus/content/
+          description: songjiayang
+        - title: markdown
+          logo:
+          url: https://markdown.com.cn/basic-syntax/
+          description:
+        - title: hardcore
+          logo:
+          url: https://hardcore.feishu.cn/wiki/wikcn9i4sfdTkxVX0DYrMMbNBpd
+          description:
+        - title: 小林coding
+          logo:
+          url: https://xiaolincoding.com/
+          description: 图解教程 MySQL
+        - title: Go 语言设计与实现
+          logo:
+          url: https://draveness.me/golang/
+          description:
+        - title: Go 语言原本
+          logo:
+          url: https://golang.design/under-the-hood/
+          description:
+        - title: Go 程序员面试笔试宝典
+          logo:
+          url: https://golang.design/go-questions/
+          description:
+        - title: Go语言高级编程
+          logo:
+          url: https://chai2010.cn/advanced-go-programming-book/index.html
           description:

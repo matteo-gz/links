@@ -3,7 +3,7 @@
   link: "./"
 
 - item: 博客
-  icon: fa-user
+  icon: fa fa-user
   link: https://matteo-gz.github.io/
 
 #- item: 配置
