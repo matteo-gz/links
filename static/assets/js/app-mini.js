@@ -206,7 +206,7 @@
         switch_mode();
         $("#"+ $('.switch-dark-mode').attr('aria-describedby')).remove();
         return
-
+        // todo 注释掉下面代码 可能会引发新bug
         $.ajax({
             url: theme.ajaxurl,
             type: 'POST',

@@ -87,11 +87,10 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }else{
         var night = document.cookie.replace(/(?:(?:^|.*;\s*)night\s*\=\s*([^;]*).*$)|^.*$/, "$1") || '0';
-        // todo bug
         if(night == '0'){
-            setNightMode() // bug x bug操作 //理论为setLightMode()
+            setLightMode()
         }else if(night == '1'){
-            setLightMode() // bug x bug操作 //理论为setNightMode()
+            setNightMode()
         }
     }
 });
@@ -100,9 +99,6 @@ $("#search-bg").css("background-image", "url({{ $.Site.Params.images.searchImage
 function switchNightMode(){
     var night = document.cookie.replace(/(?:(?:^|.*;\s*)night\s*\=\s*([^;]*).*$)|^.*$/, "$1") || '0';
     let m=$(".switch-dark-mode").attr("data-original-title")
-    // todo bug
-    console.log(m,"1.为日间模式?:",m=='日间模式')
-    console.log(currNightMode,"2.为日间模式?:",currNightMode=='日间模式')
     if(m=='日间模式'){
         // light to night
         console.log("设置夜间模式")
