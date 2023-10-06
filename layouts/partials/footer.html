@@ -75,49 +75,68 @@ var theme = {"ajaxurl":"","addico":"https:\/\/nav.baidu.cn\/wp-content\/themes\/
 <script>
 //夜间(日间)模式
 (function(){
+
+})();
+let currNightMode=""
+document.addEventListener('DOMContentLoaded', () => {
     if(document.cookie.replace(/(?:(?:^|.*;\s*)night\s*\=\s*([^;]*).*$)|^.*$/, "$1") === ''){
         if(new Date().getHours() > 22 || new Date().getHours() < 6){
-            document.body.classList.remove('io-black-mode');
-            document.body.classList.add('io-grey-mode');
-            document.cookie = "night=1;path=/";
-            console.log('夜间模式开启');
+            setNightMode()
         }else{
-            document.body.classList.remove('night');
-            document.cookie = "night=0;path=/";
-            console.log('夜间模式关闭');
+            setLightMode()
         }
     }else{
         var night = document.cookie.replace(/(?:(?:^|.*;\s*)night\s*\=\s*([^;]*).*$)|^.*$/, "$1") || '0';
+        // todo bug
         if(night == '0'){
-            document.body.classList.remove('night');
+            setNightMode() // bug x bug操作 //理论为setLightMode()
         }else if(night == '1'){
-            document.body.classList.add('night');
+            setLightMode() // bug x bug操作 //理论为setNightMode()
         }
     }
-})();
+});
 //夜间(日间)模式切换
 $("#search-bg").css("background-image", "url({{ $.Site.Params.images.searchImageL }})");   //默认浅色背景
 function switchNightMode(){
     var night = document.cookie.replace(/(?:(?:^|.*;\s*)night\s*\=\s*([^;]*).*$)|^.*$/, "$1") || '0';
-    if(night == '0'){
-	$("#search-bg").css("background-image", "url({{ $.Site.Params.images.searchImageL }})");
-        document.body.classList.remove('io-grey-mode');
-        document.body.classList.add('io-black-mode');
+    let m=$(".switch-dark-mode").attr("data-original-title")
+    // todo bug
+    console.log(m,"1.为日间模式?:",m=='日间模式')
+    console.log(currNightMode,"2.为日间模式?:",currNightMode=='日间模式')
+    if(m=='日间模式'){
+        // light to night
+        console.log("设置夜间模式")
         document.cookie = "night=1;path=/"
-        console.log(' ');
-        $(".switch-dark-mode").attr("data-original-title","日间模式");
-        $(".mode-ico").removeClass("icon-night");
-        $(".mode-ico").addClass("icon-light");
+        setNightMode()
     }else{
-	$("#search-bg").css("background-image", "url({{ $.Site.Params.images.searchImageD }})")
-        document.body.classList.remove('io-black-mode');
-        document.body.classList.add('io-grey-mode');
+        // night to light
+        console.log("设置日间模式")
         document.cookie = "night=0;path=/"
-        console.log(' ');
-        $(".switch-dark-mode").attr("data-original-title","夜间模式");
-        $(".mode-ico").removeClass("icon-light");
-        $(".mode-ico").addClass("icon-night");
+        setLightMode()
     }
+}
+function setNightMode(){
+    // 夜间模式
+    $("#search-bg").css("background-image", "url({{ $.Site.Params.images.searchImageL }})");
+    document.body.classList.remove('io-grey-mode');
+    document.body.classList.add('io-black-mode');
+    console.log('夜间模式');
+    currNightMode='夜间模式'
+    $(".switch-dark-mode").attr("data-original-title","日间模式");
+    $(".mode-ico").removeClass("icon-night");
+    $(".mode-ico").addClass("icon-light");
+}
+function setLightMode(){
+    // 日间模式
+    $("#search-bg").css("background-image", "url({{ $.Site.Params.images.searchImageD }})")
+    document.body.classList.remove('io-black-mode');
+    document.body.classList.add('io-grey-mode');
+
+    console.log('日间模式');
+    currNightMode='日间模式'
+    $(".switch-dark-mode").attr("data-original-title","夜间模式");
+    $(".mode-ico").removeClass("icon-light");
+    $(".mode-ico").addClass("icon-night");
 }
 </script>
 </body>
