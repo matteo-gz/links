@@ -201,6 +201,12 @@
     //夜间模式
     $(document).on('click', '.switch-dark-mode', function(event) {
         event.preventDefault();
+
+        $('body').toggleClass('io-black-mode '+theme.defaultclass);
+        switch_mode();
+        $("#"+ $('.switch-dark-mode').attr('aria-describedby')).remove();
+        return
+
         $.ajax({
             url: theme.ajaxurl,
             type: 'POST',
