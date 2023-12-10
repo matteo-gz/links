@@ -1,4 +1,52 @@
 ---
+- taxonomy: golang
+  icon: fa-brands fa-golang
+  list:
+    - term: tool
+      links:
+        - title: Go linters 合集
+          logo:
+          url: "https://golangci-lint.run/usage/configuration/"
+          description:
+        - title: 时间单位转换
+          logo:
+          url: "https://www.convertworld.com/zh-hans/time/microseconds.html"
+          description:
+        - title: md5加密
+          logo:
+          url: https://tool.chinaz.com/tools/md5.aspx
+          description:
+        - title: 文件上传测试
+          logo:
+          url: https://www.file.io/
+          description:
+    - term: golang书籍
+      links:
+        - title: Go 语言设计与实现
+          logo:
+          url: https://draveness.me/golang/
+          description:
+        - title: Go 语言原本
+          logo:
+          url: https://golang.design/under-the-hood/
+          description:
+        - title: Go 程序员面试笔试宝典
+          logo:
+          url: https://golang.design/go-questions/
+          description:
+        - title: Go语言高级编程
+          logo:
+          url: https://chai2010.cn/advanced-go-programming-book/index.html
+          description:
+        - title: Golang leetcode
+          logo:
+          url: https://books.halfrost.com/leetcode/
+          description: 算法大全 by halfrost
+        - title: Golang redis doc
+          logo:
+          url: https://redis.uptrace.dev/zh/guide/go-redis-sentinel.html
+          description:
+
 - taxonomy: 收藏
   icon: fa fa-star
   links:
@@ -56,10 +104,6 @@
           logo: civitai.png
           url: https://civitai.com/
           description: stable diffusion模型分享
-        - title: AIBooru
-          logo: danbooru-logo-128x128-5dfe4b292bd64a786b41.png
-          url: https://aibooru.online/
-          description: "分享用户AI生成图像 NFSW !!"
         - title: Lexica
           logo: lexica.ico
           url: https://lexica.art/
@@ -403,10 +447,6 @@
           logo:
           url: https://algorithm-visualizer.org/
           description:
-        - title: Golang leetcode
-          logo:
-          url: https://books.halfrost.com/leetcode/
-          description: 算法大全 by halfrost
         - title: leetcode 刷题思路
           logo:
           url: https://labuladong.github.io/algo/
@@ -445,19 +485,3 @@
           logo:
           url: https://xiaolincoding.com/
           description: 图解教程 MySQL
-        - title: Go 语言设计与实现
-          logo:
-          url: https://draveness.me/golang/
-          description:
-        - title: Go 语言原本
-          logo:
-          url: https://golang.design/under-the-hood/
-          description:
-        - title: Go 程序员面试笔试宝典
-          logo:
-          url: https://golang.design/go-questions/
-          description:
-        - title: Go语言高级编程
-          logo:
-          url: https://chai2010.cn/advanced-go-programming-book/index.html
-          description:
